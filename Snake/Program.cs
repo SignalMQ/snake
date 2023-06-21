@@ -74,8 +74,8 @@
 
             if (p.X == t.X && p.Y == t.Y)
             {
-                t.X = random.Next(5);
-                t.Y = random.Next(5);
+                t.X = random.Next(Map[0].Length);
+                t.Y = random.Next(Map.Length);
             }
         }
 
